@@ -1,4 +1,6 @@
 /*
+https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements/0
+
 Given an unsorted array arr[] of size N, rotate it by D elements (clockwise). 
 
 Input:
