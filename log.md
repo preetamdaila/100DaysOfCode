@@ -4,4 +4,4 @@
 **Today's Progress**: Wrote small program to create multiple triangle, rectangle pattern in C++. And also tried to create and push commits in Github repository from CLI.
 
 ### Day 1: 20 Jan, 2020
-**Today's Progress**: Few more patterns, tried practicing array programs on geeksforgeeks.
+**Today's Progress**: Few more patterns, practiced some array programs on geeksforgeeks.
