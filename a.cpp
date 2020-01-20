@@ -94,11 +94,8 @@ int main() {
                 k -= 2;
                 }
             else cout<<(j + i);
-
-            if(j >= n*n) break;
         }
         cout<<endl;
-        if (i >= n*n) break;
     }
 
 /*
@@ -108,30 +105,174 @@ int main() {
 1     3  5  8 11
 2     6  9 12 14
 3    10 13 15 16
+
 */
 
-    cout<<"\nPattern 8"<<endl;
+    cout<<"\nPattern 8 (not done)"<<endl;
     n = 4;
+    int arr[n][n];
     for(i = 0; i < n; i++){
         for(j = 1; j <= n; j++){
-            cout<<(j)<<" ";
-            
+
         }
         cout<<endl;
     }
     cout<<"\nPattern 9"<<endl;
+    n = 5;
+    for(i = 0; i < n; i++){
+        for(j = 0; j <= i; j++){
+            cout<<char('A' + i)<<" ";
+        }
+        cout<<endl;
+    }
+
     cout<<"\nPattern 10"<<endl;
-    cout<<"\nPattern 11"<<endl;
-    cout<<"\nPattern 12"<<endl;
+    n = 5;
+    for(i = 0; i < n; i++){
+        for(j = n; j >= n - i; j--){
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
+
+    cout<<"\nPattern 11 (Pascal's Triangle)(not done)"<<endl;
+    n = 6;
+    for(i = 1; i <= n; i++){
+        for(j = 0; j < n + i - 1; j++){
+            if(j < n - i){
+                cout<<"  ";
+            }
+            else cout<<j<<" ";
+        }cout<<endl;
+    }
+
+    cout<<"\nPattern 12 (Floayd's Triangle)"<<endl;
+    n = 4;
+    k = 1;
+    for(i = 0; i < n; i++){
+        for(j = 0; j <= i; j++){
+            cout<<k<<" ";
+            k++;
+        }
+        cout<<endl;
+    }
+
     cout<<"\nPattern 13"<<endl;
+    n = 7;
+    for(i = 0; i < n; i++){
+        for(j = 0; j < n; j++){
+            if(i == j || j == n - i - 1)
+                cout<<"* ";
+            else
+                cout<<"  ";
+            
+        }
+        cout<<endl;
+    }
+
     cout<<"\nPattern 14"<<endl;
+    n = 7;
+    for(i = 1; i <= n; i++){
+        for(j = n; j > 0; j--){
+            if(j == n || j == i || i == 1)
+                cout<<"* ";
+            else cout<<"  ";
+        }
+        cout<<endl;
+    }
+
     cout<<"\nPattern 15"<<endl;
+    n = 7;
+    for(i = 0; i < n; i++){
+        for(j = 0; j < n; j++){
+            if(i == 0 || j == n -1 || j == i)
+                cout<<" *";
+            else cout<<"  ";
+        }
+        cout<<endl;
+    }
+
     cout<<"\nPattern 16"<<endl;
+    n = 7;
+    for(i = 0; i < n; i++){
+        for(j = 0; j < n; j++){
+            if(i == n - 1 || j == n -1 || j == n - i - 1)
+                cout<<" *";
+            else cout<<"  ";
+        }
+        cout<<endl;
+    }
+    
     cout<<"\nPattern 17"<<endl;
+    n = 7;
+    for(i = 0; i < n; i++){
+        for(j = 0; j < n; j++){
+            if(i == n-1 || j == 0 || j == i)
+                cout<<" *";
+            else cout<<"  ";
+        }
+        cout<<endl;
+    }
+
     cout<<"\nPattern 18"<<endl;
+    n = 9;
+    k = (n + 1)/2;
+    for(i = 0; i < n; i++){
+        for(j = 0; j < n; j++){
+            if(j == k - i - 1 || j == k + i -1)
+                cout<<"* ";
+            else if(j == i - k + 1|| j == 2 * k - i + 2)
+                cout<<"* ";
+            else cout<<"  ";
+        }
+        cout<<endl;
+    }
+
     cout<<"\nPattern 19"<<endl;
+    n = 9;
+    k = (n + 1)/2;
+    for(i = 0; i < n; i++){
+        for(j = 0; j < n; j++){
+            if(j == k - i - 1 || j == k + i -1 || i == k - 1)
+                cout<<"* ";
+            else if(j == i - k + 1|| j == 2 * k - i + 2)
+                cout<<"* ";
+            else cout<<"  ";
+        }
+        cout<<endl;
+    }
+
     cout<<"\nPattern 20"<<endl;
-    cout<<"\nPattern 21"<<endl;
+    n = 9;
+    k = (n + 1)/2;
+    for(i = 0; i < n; i++){
+        for(j = 0; j < n; j++){
+            if(j == k - i - 1 || j == k + i -1 || j == k - 1)
+                cout<<"* ";
+            else if(j == i - k + 1|| j == 2 * k - i + 2)
+                cout<<"* ";
+            else cout<<"  ";
+        }
+        cout<<endl;
+    }
+    
+    cout<<"\nPattern 21 (not done)"<<endl;
+    n = 9;
+    k = (n + 1)/2;
+    for(i = 0; i < n; i++){
+        for(j = 0; j < n; j++){
+            
+            if((i == j || j == n - i - 1))
+                cout<<"* ";
+            else if(j == k - i - 1 || j == k + i -1)
+                cout<<"* ";
+            else if(j == i - k + 1|| j == 2 * k - i + 2)
+                cout<<"* ";
+            else cout<<"  ";
+        }
+        cout<<endl;
+    }
+
     cout<<"\nPattern 22"<<endl;
     cout<<"\nPattern 23"<<endl;
     cout<<"\nPattern 24"<<endl;

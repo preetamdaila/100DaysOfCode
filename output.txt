@@ -49,37 +49,128 @@ Pattern 7
  4567654
 567898765
 
-Pattern 8
-1 2 3 4 
-4 5 6 7 
-7 8 9 10 
-10 11 12 13 
+Pattern 8 (not done)
+
+
+
+
 
 Pattern 9
+A 
+B B 
+C C C 
+D D D D 
+E E E E E 
 
 Pattern 10
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
 
-Pattern 11
+Pattern 11 (Pascal's Triangle)(not done)
+          5 
+        4 5 6 
+      3 4 5 6 7 
+    2 3 4 5 6 7 8 
+  1 2 3 4 5 6 7 8 9 
+0 1 2 3 4 5 6 7 8 9 10 
 
-Pattern 12
+Pattern 12 (Floayd's Triangle)
+1 
+2 3 
+4 5 6 
+7 8 9 10 
 
 Pattern 13
+*           * 
+  *       *   
+    *   *     
+      *       
+    *   *     
+  *       *   
+*           * 
 
 Pattern 14
+* * * * * * * 
+*         *   
+*       *     
+*     *       
+*   *         
+* *           
+*             
 
 Pattern 15
+ * * * * * * *
+   *         *
+     *       *
+       *     *
+         *   *
+           * *
+             *
 
 Pattern 16
+             *
+           * *
+         *   *
+       *     *
+     *       *
+   *         *
+ * * * * * * *
 
 Pattern 17
+ *            
+ * *          
+ *   *        
+ *     *      
+ *       *    
+ *         *  
+ * * * * * * *
 
 Pattern 18
+        *         
+      *   *       
+    *       *     
+  *           *   
+*               * 
+  *           *   
+    *       *     
+      *   *       
+        *         
 
 Pattern 19
+        *         
+      *   *       
+    *       *     
+  *           *   
+* * * * * * * * * 
+  *           *   
+    *       *     
+      *   *       
+        *         
 
 Pattern 20
+        *         
+      * * *       
+    *   *   *     
+  *     *     *   
+*       *       * 
+  *     *     *   
+    *   *   *     
+      * * *       
+        *         
 
-Pattern 21
+Pattern 21 (not done)
+*       *       * 
+  *   *   *   *   
+    *       *     
+  *   *   *   *   
+*       *       * 
+  *   *   *   *   
+    *       *     
+  *   *   *   *   
+*       *       * 
 
 Pattern 22
 
