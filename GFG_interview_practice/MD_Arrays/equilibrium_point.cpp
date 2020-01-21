@@ -43,19 +43,36 @@ int main() {
     // Printing the Output to output.txt file 
     freopen("output.txt", "w", stdout); 
 
-    unsigned int t, n, i;
+    unsigned int t, n, i, m = 0, l = 0, r = 0;
     cin>>t;
     while(t--){
         cin>>n;
+        l = r = m = 0;
         unsigned int a[n];
         for(i = 0; i < n; i++)
             cin>>a[i];
-        if(n = 1){
+        if(n == 1){
             cout<<"1";
-        }else if(n == 2){
+        }else if(n > 2){
+            l = a[0];
+            for(i = 2; i < n; i++){
+                    r += a[i];
+            }
+            m = 1;
+            while(l != r && m < n - 1){
+                l += a[m];
+                m++;
+                r -= a[m];
+            }
+            if(l == r){
+                cout<<m+1;
+            }else{
+                cout<<"-1";
+            }
+        }else{
             cout<<"-1";
         }
-        
+        cout<<endl;
     }
     
     return 0;
