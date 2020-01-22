@@ -29,3 +29,8 @@
 [Sum of array elements](https://github.com/preetamdaila/100DaysOfCode/blob/master/gfg_practice_problems/sum_of_array_elements.cpp), <br>
 [Search an element in an array](https://github.com/preetamdaila/100DaysOfCode/blob/master/gfg_practice_problems/search_an_element_in_an_array.cpp), <br>
 [Binary Search](https://github.com/preetamdaila/100DaysOfCode/blob/master/gfg_practice_problems/binary_search.cpp)
+
+### Day 3: 22 Jan, 2020
+**Today's Progress**: Done only two problems. Didn't get much time. Read about dynamic arrays and linked list.
+[C++ 2D arrays](https://github.com/preetamdaila/100DaysOfCode/blob/master/gfg_practice_problems/c_2d_arrays.cpp), <br>
+[C++ 2D arrays - Set 2](https://github.com/preetamdaila/100DaysOfCode/blob/master/gfg_practice_problems/c_2d_arrays_set_2.cpp)
